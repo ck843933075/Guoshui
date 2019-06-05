@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<properties resource="jdbc.properties"/>
+	<!-- 别名 包以其子包下所有类   头字母大小都行-->
+	<typeAliases>
+		<package name="com.zhiyou100.crm.pojo"/>
+	</typeAliases>
+	
+</configuration>
